@@ -1516,6 +1516,10 @@ TF_D1D2                 input=>  FT_D1D2.trackout               output=>  PD.tra
 TF_D3D4                 input=>  FT_D3D4.trackout               output=>  PD.trackin
 TF_L1D1                 input=>  FT_L1D1.trackout               output=>  PD.trackin
 TF_L2D1                 input=>  FT_L2D1.trackout               output=>  PD.trackin
+TF_L3L4L2               input=>  FT_L3L4L2.trackout             output=>  PD.trackin
+TF_L5L6L4               input=>  FT_L5L6L4.trackout             output=>  PD.trackin
+TF_L2L3D1               input=>  FT_L2L3D1.trackout             output=>  PD.trackin
+TF_D1D2L2               input=>  FT_D1D2L2.trackout             output=>  PD.trackin
 CT_L1L2                 input=>  PD.trackout                    output=>
 CT_L2L3                 input=>  PD.trackout                    output=>
 CT_L3L4                 input=>  PD.trackout                    output=>
@@ -1524,6 +1528,10 @@ CT_D1D2                 input=>  PD.trackout                    output=>
 CT_D3D4                 input=>  PD.trackout                    output=>
 CT_L1D1                 input=>  PD.trackout                    output=>
 CT_L2D1                 input=>  PD.trackout                    output=>
+CT_L3L4L2               input=>  PD.trackout                    output=>
+CT_L5L6L4               input=>  PD.trackout                    output=>
+CT_L2L3D1               input=>  PD.trackout                    output=>
+CT_D1D2L2               input=>  PD.trackout                    output=>
 AS_L3PHIAn2             input=>  VMR_L3PHIA.allstuboutn2        output=>  TPD_L3L4L2A.firstallstubin
 AS_L4PHIAn2             input=>  VMR_L4PHIA.allstuboutn2        output=>  TPD_L3L4L2A.secondallstubin
 AS_L2PHIAn2             input=>  VMR_L2PHIA.allstuboutn2        output=>  TPD_L3L4L2A.thirdallstubin
